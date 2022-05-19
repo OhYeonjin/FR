@@ -3,14 +3,12 @@ using System;
 class Program {
   public static void Main (string[] args) {
 
-    bool bVariable = true;
-    int iVariable = 10;
-    float fVariable = 3.4f;
-    char cVariable = 'a';
-    
-    Console.WriteLine (bVariable);
-    Console.WriteLine (iVariable);
-    Console.WriteLine (fVariable);
-    Console.WriteLine (cVariable);
+    int num = 8;
+    if (num == 10)
+      Console.WriteLine("입력된 값이 10 입니다.");
+    else if (num == 9)
+      Console.WriteLine("입력된 값이 9 입니다.");
+    else
+      Console.WriteLine("입력된 값이 9와 10이 아닙니다.");
   }
 }
