@@ -3,12 +3,10 @@ using System;
 class Program {
   public static void Main (string[] args) {
 
-    int num = 0;
-
-    Console.WriteLine(num++);
-    Console.WriteLine(num);
-    Console.WriteLine(--num);
-    Console.WriteLine(num);
+    sbyte value1 = 64;
+    sbyte value2 = 64;
+    int value3 = (int)value1 + value2;
+    Console.WriteLine(value3);
     
   }
 }
